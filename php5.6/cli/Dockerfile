@@ -1,4 +1,4 @@
-FROM php:5.6-apache
+FROM php:5.6-alpine
 
 # install the PHP extensions we need
 RUN set -ex; \
